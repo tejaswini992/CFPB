@@ -1,0 +1,45 @@
+# Instructions for the Invigilator
+
+## GitHub Repository
+
+The complete codebase is also available on GitHub for your convenience. You can clone or download the repository to access all the files, including the Jupyter Notebooks, Python scripts, and data.
+Repository URL: [CPFB GitHub Repository](https://github.com/tejaswini992/CPFB.git)
+
+## Prerequisites
+
+- Please ensure you have Jupyter Notebook or Jupyter Lab installed on your machine.
+- The `requirements.txt` file is provided to handle all the dependencies. Run `pip install -r requirements.txt` to install them.
+
+## Running the Jupyter Notebook
+
+1. **Navigate to the Directory**: Open a terminal and navigate to the folder containing the `CustomerComplaintImplementation.ipynb` notebook.
+
+2. **Start Jupyter Notebook**: Run the command `jupyter notebook` or `jupyter lab`.
+
+3. **Open the Notebook**: In the Jupyter interface, click on `CustomerComplaintImplementation.ipynb` to open it.
+
+4. **Run All Cells**: You can run all cells by clicking on `Kernel` -> `Restart & Run All` or run each cell individually using `Shift + Enter`.
+
+## Dataset Replacement
+
+- The notebook uses datasets located in the `input_data` folder.
+For quick validation, you are advised to replace the dataset with a 10% sample of the original data. You will find this datasets under input_data folder.
+But all our further runs or evaluations are based on original datasets (1.4 GB data).
+The data source can be accessed through the following link: 'https://files.consumerfinance.gov/ccdb/complaints.csv.zip'.
+But you can compare your results with outcomes from `CustomerComplaintImplementation.html` file.
+
+- The original datasets with actual length are based on data from the CFPB and were used in Coursework 1.
+
+## About unittesting.py
+
+- There is a Python script named `unittesting.py` in the repository. This script contains unit tests that validate different parts of the code.
+
+- To run the tests, navigate to the directory containing `unittesting.py` and run `python unittesting.py` in the terminal.
+
+## HTML Version
+
+- For easy validation, an HTML version of the notebook named `CustomerComplaintImplementation.html` is also provided. Open it with a web browser to view the notebook's content and outputs without running any code.
+
+---
+
+Please follow these instructions to successfully run and validate the notebook. Thank you.

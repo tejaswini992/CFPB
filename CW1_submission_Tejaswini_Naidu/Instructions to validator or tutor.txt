@@ -1,0 +1,38 @@
+=====================================================
+INSTRUCTIONS TO INVIGILATOR
+=====================================================
+
+Dear Invigilator,
+
+This document contains instructions on how to examine the project, including the code, HTML file of the Jupyter Notebook, MLflow logs, sample data, requirements file, and the README document.
+
+1. CODE REVIEW:
+
+    The project is developed in Python and executed in a Jupyter Notebook. Please open the Jupyter Notebook named `CustomerComplaintExploration.ipynb` to review the code. Each cell of the notebook includes comments describing its purpose and functionality. 
+
+2. HTML FILE:
+
+    For your convenience, an HTML version of the Jupyter Notebook is also included in the project. You can open `CustomerComplaintExploration.html` in any web browser to review the code, the markdown cells, and the output of each cell, without the need for a Python environment.
+
+3. MLFLOW LOGS:
+
+    The project uses MLflow for experiment tracking. After executing the Jupyter Notebook, you can view the MLflow UI to see the tracked experiments. To start the MLflow UI, open a new terminal window, navigate to the project directory, and type the command: `mlflow ui`. By default, the MLflow UI runs at `localhost:5000`. Open this address in your web browser to view the logged experiments.
+
+4. SAMPLE DATA:
+
+    The project includes a CSV file named `customer_complaints_sample.csv`, representing a sample of the Consumer Complaint Database.
+
+5. REQUIREMENTS FILE:
+
+    The `requirements.txt` file contains a list of Python libraries used in the project. These libraries need to be installed in your Python environment to run the Jupyter Notebook. You can install all the dependencies using pip by running `pip install -r requirements.txt` in your terminal.
+
+6. README FILE:
+
+    The `README.md` file provides a comprehensive overview of the project, including the motivation, the dataset information, and the steps taken in the analysis. It also includes a table of contents for easy navigation and links to relevant documentation. Please review this document to get a thorough understanding of the project before diving into the code.
+
+If you face any difficulties or need further clarification while reviewing the project, please feel free to get in touch.
+
+Thank you for your time and consideration.
+
+Best regards,
+Tejaswini Naidu
